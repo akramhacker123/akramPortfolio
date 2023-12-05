@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://kit.fontawesome.com/6ce7634ce7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header">
+    <div class="container">
+      <nav>
+        <img src="logo.jpg" class="logo">
+        <ul id="sidemenu">
+          <li><a href="#header">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Projects</a></li>
+          <li><a href="#contact">contact</a></li>
+          <i class="fas fa-times" onclick="closemenu()"></i>
+        </ul>
+        <i class="fas fa-bars" onclick="openmenu()"></i>
+      </nav>
+      <div class="header-text">
+        <p>UI/UX Designer</p>
+        <h1>Hi, I'm <span> Akram Shaik</span><br> from Kadapa</h1>
+        <div class="social-icons">
+          <a href="https://www.facebook.com/shaik.akram.79274?mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+          <a href="https://github.com/akramhacker123"><i class="fa-brands fa-github"></i></a>
+          <a href="https://instagram.com/unkown_akram?igshid=MzMyNGUyNmU2YQ=="><i
+              class="fa-brands fa-instagram"></i></a>
+          <a
+            href="https://www.linkedin.com/in/shaik-akram-0223681b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+              class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- -------------about-------------- -->
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <div class="about-col-1">
+          <img src="about 2.jpg">
+        </div>
+        <div class="about-col-2">
+          <h1 class="sub-title">About Me</h1>
+          <p>I’m a UI Designer and I know Figma, Adobe Photoshop,
+            WordPress, HTML and CSS. As a UI designer and
+            illustrator with over 1 year of freelance experience, I bring both creativity and technical expertise to the
+            table. I specialize in designing intuitive and visually appealing digital products using Figma and Adobe XD.
+            I also have a passion for illustration and use Adobe Illustrator to bring my ideas to life. I am a strong
+            communicator and problem-solver.</p>
+
+          <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experiene')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+          </div>
+          <div class="tab-contents active-tab" id="skills">
+            <h3>Skills</h3>
+            <ul>
+              <li><span>UI/UX</span><br>Designing web/App interfaces</li>
+              <li><span>Web Development</span><br>Designing web App developmet</li>
+              <li><span>App Development</span><br>Building IOS apps</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="experiene">
+            <h3>Experience</h3>
+            <ul>
+              <li><span>2023 - current</span><br>Working in Amazon</li>
+            </ul>
+          </div>
+          <div class="tab-contents" id="education">
+            <h3>Education</h3>
+            <ul>
+              <li><span>2023</span><br>Batcholor of Technology</li>
+              <li><span>2019</span><br>Intermediate</li>
+              <li><span>2017</span><br>10th Class</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- --------------------------services--------------------- -->
+  <div id="services">
+    <div class="container">
+      <h1 class="sub-title">Services</h1>
+      <div class="services-list">
+        <div>
+          <i class="fa-solid fa-code"></i>
+          <h2>Web Design</h2>
+          <p>
+          <p>I can create a unique and creative website for you using HTML, CSS, and JavaScript, tailored to fit your
+            brand and target audience. Additionally, I can utilize frameworks and libraries like Bootstrap, jQuery, or
+            React to build dynamic and interactive web designs.</p>
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-solid fa-crop-simple"></i>
+          <h2>UI/UX Design</h2>
+          <p>I can design a website for you in a unique and creative way, using Figma, Adobe Photoshop, and WordPress to
+            match your brand and audience. I can also assist with logo design, banner design, social media posts, and
+            ecommerce design, etc.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+        <div>
+          <i class="fa-brands fa-app-store"></i>
+          <h2>App Design</h2>
+          <p>I can help design and create a unique and creative app for you by using Android studio, utilizing my skills
+            in UI/UX design and app development. With expertise in building user-friendly and visually appealing
+            interfaces,
+            Let's work together to bring your app vision to life.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- ----------------------port---------- -->
+  <div id="portfolio">
+    <div class="container">
+      <h1 class="sub-title">My work</h1>
+      <div class="work-list">
+        <div class="work">
+          <img src="blockchain.jpg">
+          <div class="layer">
+            <h3>Blockchain Technology</h3>
+            <p>Blockchain Based Electronic Health Records Management used in Hospitals</p>
+            <a href="https://github.com/akramhacker123/Block-chain-based-electronic-health-records"><i
+                class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="chatbot2.jpeg">
+          <div class="layer">
+            <h3>College Chatbot</h3>
+            <p>This chatbot is useful for giving answers to the students as well as faculty in college level</p>
+            <a href="https://github.com/akramhacker123/College-chatbot"><i
+                class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+        <div class="work">
+          <img src="TapTap.png">
+          <div class="layer">
+            <h3>Tap Tap Game</h3>
+            <p>This game is an interactive and engaging tap-based game that provides exciting challenges and
+              entertainment for players of all ages.</p>
+            <a href="https://github.com/akramhacker123/TapTap-game"><i class="fa-solid fa-up-right-from-square"></i></a>
+          </div>
+        </div>
+      </div>
+      <a href="https://github.com/akramhacker123?tab=repositories" class="btn">See more</a>
+    </div>
+  </div>
+  <!-- --------------------contact------------------ -->
+  <div id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="contact-left">
+          <h1 class="sub-title">Contact Me</h1>
+          <p><i class="fa-solid fa-envelope"></i>akramshaik908@gmailcom</p>
+          <p><i class="fa-solid fa-square-phone"></i>7702457726</p>
+          <div class="social-icons">
+            <a href="https://www.facebook.com/shaik.akram.79274?mibextid=ZbWKwL"><i
+                class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/akramhacker123"><i class="fa-brands fa-github"></i></a>
+            <a href="https://instagram.com/unkown_akram?igshid=MzMyNGUyNmU2YQ=="><i
+                class="fa-brands fa-instagram"></i></a>
+            <a
+              href="https://www.linkedin.com/in/shaik-akram-0223681b5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                class="fa-brands fa-linkedin"></i></a>
+          </div>
+          <a href="resume.pdf" download class="btn btn2">Download CV</a>
+        </div>
+        <div class="contact-right">
+          <form name="submit-to-google-sheet">
+            <input type="text" name="Name" placeholder="Your name" required>
+            <input type="email" name="Email" placeholder="Your Email" required>
+            <textarea name="Message" rows="6" placeholder="Your message"></textarea>
+            <button type="submit" class="btn btn2">Submit</button>
+          </form>
+          <span id="msg"></span>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <p>Thankyou for visiting my potfolio <i class="fa-solid fa-heart-pulse"></i>@akram</p>
+    </div>
+  </div>
+
+  <!-- 
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classlist.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classlist.remove("active-tab");
+        }
+        event.currentTarget.classlist.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    } -->
+  <!-- </script> -->
+  <script>
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+      sidemeu.style.right = "0";
+    }
+    function closemenu() {
+      sidemeu.style.right = "-200px";
+    }
+  </script>
+  </script>
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwOxYL20e_NKhIbMxP2ItBXVMflbFfMALuKEY4b0bus7VABFGJ112Ye4cI0H9xygdG-/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById('msg')
+
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, {method: 'POST', body: new FormData(form)})
+        .then(response => {
+          msg.innerHTML = "Message sent successfully"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          form.reset()
+        })
+        .catch(error => {
+          msg.innerHTML = "An error occured while sending the message"
+          setTimeout(function () {
+            msg.innerHTML = ""
+          }, 5000)
+          console.error('Error!', error.message)
+        })
+    })
+  </script>
+</body>
+
+</html>
